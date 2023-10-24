@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 64
+  - offset: 272
     length: 79
     placeholder_text: '# TODO Добавьте словарь и замените в нем нулевые значения статисчикой
       посещений'
@@ -38,5 +38,8 @@ files:
     {'Общее количество': 6, 'Уникальные посещения': 4}
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 24 Oct 2023 18:58:59 UTC"
 record: -1
 solution_hidden: true

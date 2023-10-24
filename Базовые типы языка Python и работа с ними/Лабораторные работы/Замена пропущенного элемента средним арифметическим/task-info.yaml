@@ -11,7 +11,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 249
+  - offset: 261
     length: 36
     placeholder_text: |-
       # TODO заменить значение пропущенного элемента средним арифметическим
@@ -40,5 +40,8 @@ files:
     print("Измененный список:", ...)
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 24 Oct 2023 18:49:37 UTC"
 record: -1
 solution_hidden: true
