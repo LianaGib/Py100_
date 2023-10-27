@@ -11,7 +11,7 @@ files:
       offset: 233
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       # Печать имен студентов с оценкой выше тройки
       for student in students:
@@ -39,5 +39,8 @@ files:
     Саша. Оценка: 5
     Оля. Оценка: 4
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 27 Oct 2023 20:31:25 UTC"
 record: -1

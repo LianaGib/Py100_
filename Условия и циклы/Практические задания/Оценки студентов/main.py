@@ -8,3 +8,8 @@ students = [
 ]
 
 # TODO Распечатать имена студентов с оценками выше тройки
+for name in students:
+    if name['grade'] > 3:
+        print(name["name"] +".", "Оценка:", name["grade"])
+
+
