@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 43
+  - offset: 86
     length: 61
     placeholder_text: '# TODO завести отдельные счетчики для четных и нечетных чисел'
     initial_state:
@@ -11,11 +11,11 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       count_even = 0  # количество четных чисел
       count_odd = 0  # количество нечетных чисел
-  - offset: 106
+  - offset: 149
     length: 90
     placeholder_text: '# TODO с помощью одного цикла перебрать все числа и посчитать
       количество четных и нечетных'
@@ -24,14 +24,14 @@ files:
       offset: 106
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for value in list_:  # перебираем все числа
           if value % 2 == 0:
               count_even += 1
           else:
               count_odd += 1
-  - offset: 198
+  - offset: 241
     length: 33
     placeholder_text: '# TODO вывести каких чисел больше'
     initial_state:
@@ -39,7 +39,7 @@ files:
       offset: 198
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if count_even > count_odd:
           print('Четных чисел больше')
@@ -64,5 +64,8 @@ files:
   text: |
     Четных чисел больше
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 01 Nov 2023 19:03:20 UTC"
 record: -1
