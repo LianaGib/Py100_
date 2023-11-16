@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 79
-    length: 62
+  - offset: 75
+    length: 0
     placeholder_text: "...  # TODO проверить что в строку входят только символы 1\
       \ и 0"
     initial_state:
